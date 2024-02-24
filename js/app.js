@@ -4,11 +4,13 @@ jQuery(function($){
 
 	var autocomplete = new google.maps.places.Autocomplete($('#city')[0], { types: ['(cities)'] });
 
+	const apiKey = 'OPEN_WEATHER_API'
+
 	google.maps.event.addListener(autocomplete, 'place_changed', function () {
 		IsplaceChange = true;
 
 		var place = $('#city').val();
-		var api_url = '//api.openweathermap.org/data/2.5/weather?q='+place+'&units=metric&lang=pt&APPID=c7934f7af2357d326c99af17980bd7d7';
+		var api_url = '//api.openweathermap.org/data/2.5/weather?q='+place+'&units=metric&lang=pt&APPID='+OPEN_WEATHER_API;
 
 		clearWeatherInfo();
 		$('#weather').css('display','block').addClass('preloader');
