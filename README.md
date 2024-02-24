@@ -1,14 +1,6 @@
-# Tempo Agora
-Tema Wordpress para informação de clima em tempo real
+Weather Now
+WordPress Theme for Real-Time Weather Information
 
-Aplicação em Wordpress para informação de clima em tempo real de cidades
+WordPress application for real-time weather information for cities.
 
-Feito com as APIs do Google Places e Open Weather Map
-
-Veja a [Demo](https://marioito.com.br/lab/weather/)
-
-
-## Instalação
-1. Coloque a pasta "tempo-agora" no diretório de temas da sua instalação do Wordpress
-2. Ative o tema pelo gerenciador do Wordpress (wp-admin)
-3. Pronto!
+Built using Google Places and OpenWeatherMap APIs.
